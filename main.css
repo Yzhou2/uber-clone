@@ -1,0 +1,94 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 300;
+}
+.top_bar {
+  width: 100%;
+  height:80px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uberlogo {
+  margin-bottom: 18px;
+  padding-top:12px
+
+}
+
+li {
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+
+.text_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_section p {
+  margin: 10px;
+}
+
+.uber , .burrito {
+  font-size: 26px;
+}
+
+.burrito {
+  color: green;
+}
+
+.food {
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.findFood {
+  margin: 20px;
+}
+
+.horizontalLine {
+  width:40px;
+  height:3px;
+  background: lightgray;
+  margin-bottom: 40px;
+}
+
+.center_box {
+  display: flex;
+}
+
+
+.selectionYouWant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.innerBox {
+  width: 300px;
+  height: 200px;
+  margin:30px;
+}
+
+.title {
+  font-size: 23px;
+  margin-bottom: 30px
+
+}
+
+.bs {
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-bottom: 65px;
+  line-height: 1.5
+}
