@@ -24,6 +24,15 @@ li {
   margin-right: 12px;
 }
 
+.main_cta {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 12px;
+  background: green;
+
+  color:white;
+}
+
 
 .text_section {
   display: flex;
@@ -49,6 +58,7 @@ li {
 
 .findFood {
   margin: 20px;
+  font-size: 15px;
 }
 
 .horizontalLine {
@@ -91,4 +101,42 @@ li {
 .content {
   margin-bottom: 65px;
   line-height: 1.5
+}
+
+.craveBottom {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.downloadButtons {
+  flex-direction: row;
+  display: inline-block;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.text_wrap {
+  /*border: 2px solid red;*/
+  height: 250px;
+  margin-left: 30px;
+  margin-right: 150px;
+  line-height: 1.5;
+}
+
+.craveTap {
+  font-size: 25px;
+}
+
+.downloadText {
+  font-weight: bold;
+}
+
+.craveTap, .craveText, .downloadText{
+  margin-top: 20px;
+}
+
+.craveTap {
+  margin-top: 50px;
 }
