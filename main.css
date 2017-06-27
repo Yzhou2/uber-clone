@@ -1,5 +1,5 @@
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Athiti', sans-serif;
   font-weight: 300;
 }
 .top_bar {
@@ -24,6 +24,7 @@ li {
   margin-right: 12px;
 }
 
+
 .main_cta {
   text-transform: uppercase;
   font-weight: 600;
@@ -39,9 +40,6 @@ li {
   flex-direction: column;
 }
 
-.text_section p {
-  margin: 10px;
-}
 
 .uber , .burrito {
   font-size: 26px;
@@ -49,6 +47,13 @@ li {
 
 .burrito {
   color: green;
+  margin-bottom: 20px;
+}
+
+.itswrapper {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .food {
@@ -65,7 +70,7 @@ li {
   width:40px;
   height:3px;
   background: lightgray;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .center_box {
@@ -88,19 +93,24 @@ li {
 }
 
 .title {
-  font-size: 20px;
-  margin-bottom: 30px
+  font-size: 25px;}
 
+.second_line{
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-top: 5px;
 }
+
 
 .bs {
   justify-content: center;
   align-items: center;
 }
 
+
 .content {
-  margin-bottom: 65px;
-  line-height: 1.5
+  line-height: 1.5;
+  color: darkgray;
 }
 
 .pic_section {
@@ -112,6 +122,11 @@ li {
   flex-direction: column;
 
 }
+.craveText {
+  color: darkgray;
+  line-height: 1.8;
+}
+
 
 .downloadButtons {
   flex-direction: row;
@@ -191,10 +206,19 @@ footer {
 
 }
 
+.line2, .top {
+  margin: 0 auto;
+  height: 1px;
+}
+
 .hash {
   margin-top: 50px;
   color: white;
   font-size: 17px;
+}
+
+span {
+  color: green;
 }
 
 .menuwrapper {
