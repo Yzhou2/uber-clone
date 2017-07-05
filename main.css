@@ -58,7 +58,7 @@ li {
   margin-left: 25px;
   margin-right: 25px;
   height: 280px;;
-  /*border: 2px solid red;*/
+  border: 2px solid red;
 }
 
 .pic_box {
@@ -81,9 +81,9 @@ li {
   font-weight: 400;
 }
 
-/*form, .address {
+form, .address {
   display: none;
-}*/
+}
 
 .address{
   font-weight: 600;
@@ -112,21 +112,32 @@ li {
 
 .selectionYouWant {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   /*flex-wrap: wrap;*/
-  justify-content: center;
-  /*border: 3px solid orange;*/
-  height: 100%;
+  /*justify-content: center;*/
+  border: 3px solid orange;
+  /*height: 600px;*/
+
+
+}
+
+.centerWrap {
+  border: 4px solid blue;
+  margin-left: 30px;
+  margin-right: 30px;
+
+
 
 }
 
 
 .innerBox {
-  width: 100%;
-  height: 600px;
+  /*width: 100%;
+  height: 600px;*/
   margin-top:30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  /*margin-left: 80px;*/
+  /*margin-right: 30px;*/
+  border: 2px solid pink;
 }
 
 .title {
@@ -153,6 +164,7 @@ li {
 .craveBottom {
   display: flex;
   flex-direction: column;
+  border: 3px solid teal;}
 
 .crave_main {
   margin-top: 30px;
@@ -160,7 +172,7 @@ li {
 
 }
 .craveText {
-  color: darkgray;
+  color: gray;
   line-height: 1.8;
 }
 
@@ -172,7 +184,7 @@ li {
 
 .downloadButtons {
   flex-direction: row;
-  display: inline-block;
+  /*display: inline-block;*/
   display:flex;
   justify-content: center;
   margin-bottom: 80px;
@@ -326,6 +338,7 @@ footer {
   }
 
   .insidewrapper {
+
     width: 45vw;
     height: 80%;
 
@@ -340,7 +353,7 @@ footer {
  }
   .selectionYouWant {
     height: 600px;
-    flex-direction: row;
+    /*flex-direction: row;*/
     width: 100%;
     margin: 0 auto;
   }
@@ -354,6 +367,9 @@ footer {
 }
 .text_wrap {
   height: 588px;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 70vw;
 }
 /*.placeholder {
   height:150px;
@@ -382,8 +398,44 @@ form {
 }
 .findFood {
   margin:0;
-
 }
 
+/*selectionYouWantsection*/
+.centerWrap {
+  display: flex;
+  height: 100%;
+}
+
+.innerBox {
+  margin-left: 120px;
+}
+
+/*cravesection*/
+.pic_section {
+  height: 447.59px;
+  border: 3px solid lightblue;
+}
+
+.downloadButtons {
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.craveTap {
+  font-size: 50px;
+}
+
+.downloadText {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.vertical_center {
+  border: 6px solid gray;
+}
+/*.outerbox {
+display: flex;
+}*/
 
 }
