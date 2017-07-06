@@ -225,6 +225,7 @@ footer {
 
 .li2 {
   color: lightgray;
+  margin-bottom: 12px;
 }
 
 .line2 {
@@ -233,14 +234,16 @@ footer {
   background: gray;
 }
 
-.bottom_wraper {
+/*.bottom_wraper {
   margin-left: 25px;
   margin-right: 25px;
-  /*border: 4px solid orange;*/
-}
+  border: 4px solid orange;
+}*/
 
-.bottom_nav {
+.bottom_wraper {
   /*border: 2px solid red;*/
+  display: flex;
+
 }
 .logo2 {
   padding:20px;
@@ -252,12 +255,12 @@ footer {
 .social {
   display: flex;
   color:white;
-  /*border: 2px solid yellow;*/
+  border: 2px solid yellow;
 }
 .socialinner {
-  margin-top:20px;
+  /*margin-top:20px;*/
   margin-right: 10px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 
 }
 
@@ -267,7 +270,7 @@ footer {
 }
 
 .hash {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   color: white;
   font-size: 17px;
 }
@@ -276,14 +279,18 @@ span {
   color: green;
 }
 
-.menuwrapper {
+/*.menuwrapper {
   height: 250px;
-  /*border: 2px solid pink;*/
+  border: 2px solid pink;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 25px;
   font-size: 13px;
+}*/
+
+.navBox {
+  border: 3px solid green;
 }
 
 
@@ -370,6 +377,8 @@ footer {
   border: 2px solid black;
   margin: 0 auto;
   width: 70vw;
+  display: flex;
+  align-items: center;
 }
 /*.placeholder {
   height:150px;
@@ -437,5 +446,11 @@ form {
 /*.outerbox {
 display: flex;
 }*/
-
+.navBox {
+  padding-left: 32px;
+  margin-bottom: 12px;
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
 }
