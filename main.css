@@ -20,12 +20,6 @@ body {
 
 }
 
-li {
-  color: #57ad57;
-  font-weight: bold;
-  display: inline-block;
-  margin-right: 12px;
-}
 
 
 .main_cta {
@@ -226,10 +220,11 @@ footer {
 .li2 {
   color: lightgray;
   margin-bottom: 12px;
+  font-size: 15px;
 }
 
 .line2 {
-  width:80vw;
+  width:100%;
   height: 0.5px;
   background: gray;
 }
@@ -243,6 +238,7 @@ footer {
 .bottom_wraper {
   /*border: 2px solid red;*/
   display: flex;
+  flex-direction: column;
 
 }
 .logo2 {
@@ -256,6 +252,8 @@ footer {
   display: flex;
   color:white;
   border: 2px solid yellow;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .socialinner {
   /*margin-top:20px;*/
@@ -401,12 +399,12 @@ footer {
   border: 2px solid tan;
   display: flex;
 }
-form {
-  height: 69px;
-  width: 70%;
+input {
+  flex: 3;
 }
 .findFood {
   margin:0;
+  flex:1;
 }
 
 /*selectionYouWantsection*/
@@ -453,4 +451,29 @@ display: flex;
   display: flex;
   flex-direction: column;
 }
+
+
+.bottom_section {
+  display: flex;
+  justify-content: center;
+}
+.bottom_wraper {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_nav {
+  width: 90vw;
+  height: 400px;
+  border: 2px solid green;
+}
+
+.footNote {
+  border: 2px solid red;
+  width: 33.33%;
+  padding-left: 33px;
+  margin-right: 200px;
+
+}
+
 }
